@@ -1,0 +1,8 @@
+customer_id,age,monthly_spend,plan,churn,region_code
+1,22,19.5,basic,0,1
+2,35,55.0,premium,1,1
+3,,32.0,basic,0,1
+4,41,,standard,1,1
+5,29,42.0,premium,0,1
+5,29,42.0,premium,0,1
+6,50,65.0,premium,1,1
