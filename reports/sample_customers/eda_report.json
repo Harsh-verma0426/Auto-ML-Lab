@@ -1,0 +1,139 @@
+{
+  "shape": {
+    "rows": 7,
+    "columns": 6
+  },
+  "missing_values": {
+    "count_by_column": {
+      "customer_id": 0,
+      "age": 1,
+      "monthly_spend": 1,
+      "plan": 0,
+      "churn": 0,
+      "region_code": 0
+    },
+    "percent_by_column": {
+      "customer_id": 0.0,
+      "age": 14.29,
+      "monthly_spend": 14.29,
+      "plan": 0.0,
+      "churn": 0.0,
+      "region_code": 0.0
+    },
+    "total_cells_missing": 2
+  },
+  "duplicate_rows": 1,
+  "numeric_summary": {
+    "customer_id": {
+      "count": 7.0,
+      "mean": 3.714,
+      "std": 1.799,
+      "min": 1.0,
+      "25%": 2.5,
+      "50%": 4.0,
+      "75%": 5.0,
+      "max": 6.0
+    },
+    "age": {
+      "count": 6.0,
+      "mean": 34.333,
+      "std": 9.993,
+      "min": 22.0,
+      "25%": 29.0,
+      "50%": 32.0,
+      "75%": 39.5,
+      "max": 50.0
+    },
+    "monthly_spend": {
+      "count": 6.0,
+      "mean": 42.583,
+      "std": 16.138,
+      "min": 19.5,
+      "25%": 34.5,
+      "50%": 42.0,
+      "75%": 51.75,
+      "max": 65.0
+    },
+    "churn": {
+      "count": 7.0,
+      "mean": 0.429,
+      "std": 0.535,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "region_code": {
+      "count": 7.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    }
+  },
+  "categorical_summary": {
+    "plan": {
+      "premium": 4,
+      "basic": 2,
+      "standard": 1
+    }
+  },
+  "correlation": {
+    "customer_id": {
+      "customer_id": 1.0,
+      "age": 0.5809,
+      "monthly_spend": 0.6218,
+      "churn": 0.1485,
+      "region_code": null
+    },
+    "age": {
+      "customer_id": 0.5809,
+      "age": 1.0,
+      "monthly_spend": 0.9208,
+      "churn": 0.8404,
+      "region_code": null
+    },
+    "monthly_spend": {
+      "customer_id": 0.6218,
+      "age": 0.9208,
+      "monthly_spend": 1.0,
+      "churn": 0.836,
+      "region_code": null
+    },
+    "churn": {
+      "customer_id": 0.1485,
+      "age": 0.8404,
+      "monthly_spend": 0.836,
+      "churn": 1.0,
+      "region_code": null
+    },
+    "region_code": {
+      "customer_id": null,
+      "age": null,
+      "monthly_spend": null,
+      "churn": null,
+      "region_code": null
+    }
+  },
+  "target": "churn",
+  "plots": [
+    "distribution_1.png",
+    "distribution_2.png",
+    "distribution_3.png",
+    "distribution_4.png",
+    "distribution_5.png",
+    "categories_6.png",
+    "correlation_heatmap.png",
+    "missing_values.png",
+    "target_distribution.png"
+  ],
+  "target_summary": {
+    "non_missing": 7,
+    "missing": 0,
+    "unique_values": 2
+  }
+}
